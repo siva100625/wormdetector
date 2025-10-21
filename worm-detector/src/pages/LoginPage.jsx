@@ -45,11 +45,11 @@ const LoginPage = () => {
         // --- CHANGE HERE ---
         flex: 1.2, // Give the image side slightly more space (~55%)
         // --- END CHANGE ---
-        display: 'flex',
+        // display: 'flex', // <-- THIS LINE WAS REMOVED TO FIX THE ERROR
         justifyContent: 'center',
         alignItems: 'center',
         padding: '2rem',
-        display: window.innerWidth < 1024 ? 'none' : 'flex',
+        display: window.innerWidth < 1024 ? 'none' : 'flex', // <-- This is the one we keep
     };
 
     const imageStyle = {
