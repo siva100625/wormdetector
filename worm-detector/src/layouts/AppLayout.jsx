@@ -2,7 +2,7 @@ import React from 'react';
 import { Outlet, Navigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { useTheme } from '../contexts/ThemeContext';
-import LoggedInNavbar from '../components/LoggedInNavbar'; // <-- Import the new Navbar
+import LoggedInNavbar from '../components/LoggedinNavbar'; // <-- Import the new Navbar
 
 const AppLayout = () => {
     const { user } = useAuth();
