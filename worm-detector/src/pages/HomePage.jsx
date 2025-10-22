@@ -306,7 +306,7 @@ const HomePage = () => {
                 </div>
                 <div style={size.width >= 768 ? { ...heroContentStyle, ...desktopHeroContentStyle } : heroContentStyle}>
                     <h1 style={heroTitleStyle}>Distinguish Invasive Flatworms. Safeguard Soil Health.</h1>
-                    <p style={heroSubtitleStyle}>Our AI helps you quickly identify earthworms from harmful flatworms, crucial for protecting local ecosystems.</p>
+                    <p style={heroSubtitleStyle}>WormDetector helps you quickly identify earthworms from harmful flatworms, crucial for protecting local ecosystems.</p>
                     <Link to="/predict" style={applyHoverStyle(heroButtonStyle, heroButtonHoverStyle, isButtonHovered)} onMouseEnter={() => setIsButtonHovered(true)} onMouseLeave={() => setIsButtonHovered(false)}>Protect Earthworms 🪱</Link>
                 </div>
             </header>
@@ -317,7 +317,7 @@ const HomePage = () => {
                     <h2 style={sectionTitleStyle}>Why WormDetector?</h2>
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem' }}>
                         <div style={featureBlockBaseStyle}><FaLeaf style={featureBlockIconStyle} /><h3 style={featureBlockTitleStyle}>Ecological Protection</h3><p style={featureBlockTextStyle}>Safeguard local biodiversity by identifying and managing invasive flatworm species.</p></div>
-                        <div style={featureBlockBaseStyle}><FaShieldAlt style={featureBlockIconStyle} /><h3 style={featureBlockTitleStyle}>Accurate & Instant</h3><p style={featureBlockTextStyle}>Our fine-tuned AI model provides reliable classifications in seconds from a single image.</p></div>
+                        <div style={featureBlockBaseStyle}><FaShieldAlt style={featureBlockIconStyle} /><h3 style={featureBlockTitleStyle}>Accurate & Instant</h3><p style={featureBlockTextStyle}>WormDetector fine-tuned AI model provides reliable classifications in seconds from a single image.</p></div>
                         <div style={featureBlockBaseStyle}><FaUsers style={featureBlockIconStyle} /><h3 style={featureBlockTitleStyle}>For Everyone</h3><p style={featureBlockTextStyle}>Designed for gardeners, farmers, researchers, and nature enthusiasts. No expertise required.</p></div>
                     </div>
                 </section>
@@ -331,7 +331,7 @@ const HomePage = () => {
                    <div style={aboutSectionBox}>
                         <h2 style={aboutSectionTitle}>About Us</h2>
                         <p style={aboutSectionText}>
-                            WormDetector was born from a passion for ecological balance and the power of artificial intelligence. We noticed a growing concern among environmentalists and gardeners about the spread of invasive flatworms, which pose a significant threat to native earthworm populations crucial for soil health.To empower individuals with an easy, accurate tool to identify these species, enabling timely intervention and contributing to healthier ecosystems.
+                            WormDetector was born from a passion for ecological balance and the power of artificial intelligence.Noticed a growing concern among environmentalists and gardeners about the spread of invasive flatworms, which pose a significant threat to native earthworm populations crucial for soil health.To empower individuals with an easy, accurate tool to identify these species, enabling timely intervention and contributing to healthier ecosystems.
                      </p>
                     </div>
                 </section>

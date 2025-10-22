@@ -257,7 +257,7 @@ const PredictPage = () => {
             {/* --- 4. RESPONSIVE PADDING --- */}
             <div className="container" style={{ padding: size.width < 768 ? '1.5rem 1rem' : '2rem 1.5rem' }}>
                 <div style={styles.header}>
-                  _ <h1 style={{...styles.title, ...(isDarkMode && styles.darkTitle)}}>AI Worm Classifier</h1>
+                  <h1 style={{...styles.title, ...(isDarkMode && styles.darkTitle)}}>AI Worm Detector</h1>
                     <p style={{...styles.subtitle, ...(isDarkMode && styles.darkSubtitle)}}>Upload an image to get a prediction.</p>
                 </div>
 
