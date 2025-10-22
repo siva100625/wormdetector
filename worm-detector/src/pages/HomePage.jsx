@@ -328,18 +328,18 @@ const HomePage = () => {
                 </section>
 
                 <section id="about" style={{ margin: '6rem 0' }}>
-            _       <div style={aboutSectionBox}>
+                   <div style={aboutSectionBox}>
                         <h2 style={aboutSectionTitle}>About Us</h2>
                         <p style={aboutSectionText}>
                             WormDetector was born from a passion for ecological balance and the power of artificial intelligence. We noticed a growing concern among environmentalists and gardeners about the spread of invasive flatworms, which pose a significant threat to native earthworm populations crucial for soil health.To empower individuals with an easy, accurate tool to identify these species, enabling timely intervention and contributing to healthier ecosystems.
-        _             </p>
+                     </p>
                     </div>
                 </section>
 
                 <section id="contact" style={{ margin: '6rem 0', textAlign: 'center' }}>
                     <h2 style={sectionTitleStyle}>Have Questions?</h2>
                     <p style={{ fontSize: '1.125rem', marginBottom: '2rem', color: theme === 'dark' ? '#d1d5db' : '#4b5563' }}>
-Indo-French-German Trilateral Cooperation
+
                     </p>
 <a href="mailto:shiva19072005@gmail.com" style={contactButtonStyle}>
 Click here to Mail Us

@@ -125,9 +125,9 @@ const LoginPage = () => {
                             <button type="submit" disabled={isLoading} style={submitButton}>
                                 {isLoading ? 'Signing In...' : 'Sign In'}
                             </button>
-                      _   </form>
+                         </form>
                         <p style={footerText}>
-                  _         Don't have an account?{' '}
+                          Don't have an account?{' '}
                             <Link to="/signup" style={link}>Sign up here</Link>
                         </p>
                     </div>
