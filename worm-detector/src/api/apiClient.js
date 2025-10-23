@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-    baseURL: 'https://hopebackend.onrender.com/api', // Your Django API URL
+    baseURL: 'http://10.226.67.25:80/api', // Your Django API URL
 });
 
 export default apiClient;
