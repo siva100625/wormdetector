@@ -23,7 +23,7 @@ from keras.layers import RandomFlip
 IMG_HEIGHT = 128
 IMG_WIDTH = 128
 CLASS_NAMES = ["earthworm", "flatworm"]
-client=MongoClient("mongodb+srv://testUser:TSX8uNGoZc2AuteR@cluster0.7zpc1wb.mongodb.net/") 
+client=MongoClient("") 
 db = client["worm_detector_db"] 
 predictions_collection = db["predictions"]
 # =============================
@@ -250,3 +250,4 @@ def all_predictions(request):
         print("🔥 Fetch Predictions Error:")
         print(traceback.format_exc())
         return JsonResponse({"error": str(e)}, status=500)
+
